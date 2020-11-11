@@ -4,6 +4,6 @@
     "homepage": "https://creativestyle.de",
     "licence": "proprietary",
     "require": {
-        "creativestyle/theme-creativeshop": "dev-next@dev"
+        "creativestyle/theme-creativeshop": "^8.14.13"
     }
 }
