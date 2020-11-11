@@ -1,0 +1,9 @@
+@import '~Creativeshop/components/brand-carousel/brand-carousel.scss';
+
+.#{$ns}brand-carousel {
+    $root: &;
+
+    &__image {
+        min-width: 9rem;
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "name": "creativestyle/theme-europarts",
+    "description": "Europarts Magento Theme",
+    "homepage": "https://creativestyle.de",
+    "licence": "proprietary",
+    "require": {
+        "creativestyle/theme-creativeshop": "dev-next"
+    }
+}
