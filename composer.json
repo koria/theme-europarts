@@ -5,5 +5,7 @@
     "licence": "proprietary",
     "require": {
         "creativestyle/theme-creativeshop": "dev-next"
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
