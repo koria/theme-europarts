@@ -1,0 +1,23 @@
+@import '~Creativeshop/components/header/header.scss';
+
+.#{$ns}header {
+    $root: &;
+
+    &__logo {
+        display: flex;
+        flex: 1 1 0%;
+        margin-bottom: 0;
+        align-items: center;
+        align-content: center;
+        width: auto;
+
+        @include media('>=phoneLg') {
+            flex: 0 1 auto;
+        }
+
+        @include media('<tablet') {
+            padding: 0.7rem 0;
+        }
+
+    }
+}
