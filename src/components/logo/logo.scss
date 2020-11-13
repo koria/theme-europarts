@@ -1,0 +1,11 @@
+@import '~Creativeshop/components/logo/logo.scss';
+
+.#{$ns}logo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+    &__image {
+        height: auto; // Fixes height: auto bug on chrome.
+    }
+}
