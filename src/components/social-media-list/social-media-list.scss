@@ -1,0 +1,35 @@
+@import '~Creativeshop/components/social-media-list/social-media-list.scss';
+
+.#{$ns}social-media-list {
+
+    $root: &;
+
+    &__icon {
+
+        #{$root}__item--fb & {
+            width: 0.9em;
+            height: 1.8em;
+        }
+
+        #{$root}__item--tw & {
+            width: 2.5em;
+            height: 2em;
+        }
+
+        #{$root}__item--yt & {
+            width: 1.8em;
+            height: 2.1em;
+        }
+
+        #{$root}__item--gp & {
+            width: 2em;
+            height: 2em;
+            margin-top: 0.1em;
+        }
+
+        #{$root}__item--instagram & {
+            width: 0.9em;
+            height: 1.8em;
+        }
+    }
+}

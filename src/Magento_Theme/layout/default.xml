@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="social.media.list" template="Magento_Theme::social-media-list.phtml">
+            <!-- in order to remove some items please target them in your theme and set item type to something other than 'array'. For instance to remove facebook: <item name="facebook" xsi:type="string"></item> -->
+            <arguments>
+                <argument name="items" xsi:type="array">
+                    <item name="instagram" xsi:type="array">
+                        <item name="additional_css_classes" xsi:type="string">cs-social-media-list__item--instagram</item>
+                        <item name="url" xsi:type="string">https://www.instagram.com/europartsua/</item>
+                        <item name="icon" xsi:type="string">images/icons/instagram.svg</item>
+                        <item name="icon_alt_text" xsi:type="string" translate="true">Instagram logo</item>
+                        <item name="label" xsi:type="string" translate="true">See our Instagram</item>
+                        <item name="hide_label" xsi:type="boolean">true</item>
+                    </item>
+                </argument>
+            </arguments>
+        </referenceBlock>
+    </body>
+</page>
