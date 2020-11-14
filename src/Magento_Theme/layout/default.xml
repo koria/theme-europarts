@@ -43,7 +43,7 @@
             <block class="MageSuite\ThemeHelpers\Block\Icon" name="page.bottom.group.shipping.nova-poshta">
                 <arguments>
                     <argument name="icon_url" xsi:type="string">images/icons/page-bottom/icon-nova-poshta.svg</argument>
-                    <argument name="css_class" xsi:type="string">cs-page-bottom__logo cs-page-bottom__logo--hermes</argument>
+                    <argument name="css_class" xsi:type="string">cs-page-bottom__logo cs-page-bottom__logo--nova-poshta</argument>
                     <argument name="alt_text" xsi:type="string">Нова Пошта</argument>
                     <argument name="lazy_loaded" xsi:type="boolean">true</argument>
                     <argument name="inlined" xsi:type="boolean">false</argument>
@@ -52,7 +52,7 @@
             <block class="MageSuite\ThemeHelpers\Block\Icon" name="page.bottom.group.shipping.justin">
                 <arguments>
                     <argument name="icon_url" xsi:type="string">images/icons/page-bottom/icon-justin.svg</argument>
-                    <argument name="css_class" xsi:type="string">cs-page-bottom__logo cs-page-bottom__logo--hermes</argument>
+                    <argument name="css_class" xsi:type="string">cs-page-bottom__logo cs-page-bottom__logo--justin</argument>
                     <argument name="alt_text" xsi:type="string">Justin</argument>
                     <argument name="lazy_loaded" xsi:type="boolean">true</argument>
                     <argument name="inlined" xsi:type="boolean">false</argument>
@@ -64,7 +64,7 @@
             <block class="MageSuite\ThemeHelpers\Block\Icon" name="page.bottom.group.payment.privatbank">
                 <arguments>
                     <argument name="icon_url" xsi:type="string">images/icons/page-bottom/icon-privatbank.svg</argument>
-                    <argument name="css_class" xsi:type="string">cs-page-bottom__logo cs-page-bottom__logo--paypal</argument>
+                    <argument name="css_class" xsi:type="string">cs-page-bottom__logo cs-page-bottom__logo--privatbank</argument>
                     <argument name="alt_text" xsi:type="string">Приват Банк</argument>
                     <argument name="lazy_loaded" xsi:type="boolean">true</argument>
                     <argument name="inlined" xsi:type="boolean">false</argument>
@@ -73,7 +73,7 @@
             <block class="MageSuite\ThemeHelpers\Block\Icon" name="page.bottom.group.payment.monobank">
                 <arguments>
                     <argument name="icon_url" xsi:type="string">images/icons/page-bottom/icon-monobank.svg</argument>
-                    <argument name="css_class" xsi:type="string">cs-page-bottom__logo cs-page-bottom__logo--paypal</argument>
+                    <argument name="css_class" xsi:type="string">cs-page-bottom__logo cs-page-bottom__logo--monobank</argument>
                     <argument name="alt_text" xsi:type="string">Монобанк</argument>
                     <argument name="lazy_loaded" xsi:type="boolean">true</argument>
                     <argument name="inlined" xsi:type="boolean">false</argument>
