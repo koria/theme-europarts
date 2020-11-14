@@ -16,14 +16,13 @@
         }
 
         &--shipping {
-            padding-right: 1rem;
-
             @include media('>=tablet') {
                 flex-basis: 55%;
                 padding-right: 5rem;
             }
 
             @include media('>=laptop') {
+                padding-right: 1rem;
                 flex-basis: 27%;
             }
         }
