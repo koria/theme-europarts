@@ -16,6 +16,8 @@
         }
 
         &--shipping {
+            padding-right: 1rem;
+
             @include media('>=tablet') {
                 flex-basis: 55%;
                 padding-right: 5rem;
