@@ -3,26 +3,7 @@
 .#{$ns}page-bottom {
     $root: &;
 
-    @include media('>=tablet') {
-        flex-wrap: wrap;
-        justify-content: flex-start;
-    }
-
-    @include media('>=laptop') {
-        flex-wrap: nowrap;
-        justify-content: space-between;
-    }
-
     &__group {
-        @include media('>=tablet') {
-            width: 100%;
-            padding: 1rem 0;
-        }
-
-        @include media('>=laptop') {
-            width: auto;
-            padding: 0;
-        }
 
         &--info {
             @include media('>=tablet') {
@@ -35,8 +16,6 @@
         }
 
         &--shipping {
-            display: none;
-
             @include media('>=tablet') {
                 flex-basis: 55%;
                 padding-right: 5rem;
@@ -55,8 +34,8 @@
                 padding-left: 2rem;
                 padding-right: 5rem;
             }
-
         }
+
     }
 
     &__logo {
