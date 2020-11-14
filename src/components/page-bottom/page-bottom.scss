@@ -3,15 +3,43 @@
 .#{$ns}page-bottom {
     $root: &;
 
-    &__logo {
-        display: flex;
-        flex-shrink: 1;
-        height: 2rem;
+    &__group {
+        &--info {
+            @include media('>=tablet') {
+                flex-basis: 40%;
+            }
 
-        @include media('<laptop') {
-            width: auto;
+            @include media('>=laptop') {
+                flex-basis: 17%;
+            }
         }
 
+        &--shipping {
+            display: none;
+
+            @include media('>=tablet') {
+                flex-basis: 55%;
+                padding-right: 5rem;
+            }
+
+            @include media('>=laptop') {
+                flex-basis: 27%;
+            }
+        }
+
+        &--payment {
+            flex-basis: 45%;
+
+            @include media('>=tablet', '<laptop') {
+                flex-basis: 100%;
+                padding-left: 2rem;
+                padding-right: 5rem;
+            }
+
+        }
+    }
+
+    &__logo{
         &--nova-poshta {
             height: auto;
             width: 9rem;
@@ -30,77 +58,6 @@
             top: 3px;
             position: relative;
             max-width: 14rem;
-        }
-
-        &--hermes {
-            width: 12.2rem;
-        }
-
-        &--hermes {
-            width: 12.2rem;
-        }
-
-        &--dhl {
-            height: auto;
-            max-height: 2rem;
-            min-width: 8.6rem;
-            padding-left: 10px;
-        }
-
-        &--paypal {
-            width: 6.2rem;
-        }
-
-        &--visa {
-            height: auto;
-            max-height: 2rem;
-            min-width: 5.5rem;
-        }
-
-        &--mastercard {
-            width: 3.3rem;
-        }
-
-        &--klarna-sofort {
-            height: auto;
-            max-height: 2.5rem;
-            min-height: 2.5rem;
-        }
-
-        &--klarna {
-            width: 7rem;
-        }
-
-        &--gls {
-            width: 5rem;
-        }
-
-        &--giropay {
-            width: 4.8rem;
-        }
-
-        &--ec {
-            width: 1.8rem;
-        }
-
-        &--paydirekt {
-            width: 6rem;
-        }
-
-        &--lastschrift {
-            width: 6.15rem;
-        }
-
-        &--vorkasse {
-            width: 8.3rem;
-        }
-
-        &--rechnung {
-            width: 6.15rem;
-        }
-
-        & + & {
-            margin-left: 0.5rem;
         }
     }
 }
