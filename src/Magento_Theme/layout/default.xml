@@ -22,5 +22,71 @@
                 </argument>
             </arguments>
         </referenceBlock>
+
+
+        <referenceBlock name="page.bottom.info" template="Magento_Theme::page-bottom/group.phtml">
+            <arguments>
+                <argument name="text" xsi:type="string" translate="true">Податок на додану вартість 20% включений у всі ціни.</argument>
+                <argument name="additional_css_classes" xsi:type="string">cs-page-bottom__group--info</argument>
+            </arguments>
+            <block class="MageSuite\ThemeHelpers\Block\Icon" name="page.bottom.info.logo">
+                <arguments>
+                    <argument name="icon_url" xsi:type="string">images/icons/page-bottom/sfs.png</argument>
+                    <argument name="css_class" xsi:type="string">cs-page-bottom__image cs-page-bottom__image--circle</argument>
+                    <argument name="alt_text" xsi:type="string" translate="true">Державна фіскальна служба України</argument>
+                    <argument name="lazy_loaded" xsi:type="boolean">true</argument>
+                </arguments>
+            </block>
+        </referenceBlock>
+
+        <referenceBlock name="page.bottom.group.shipping" template="Magento_Theme::page-bottom/group.phtml">
+            <block class="MageSuite\ThemeHelpers\Block\Icon" name="page.bottom.group.shipping.nova-poshta">
+                <arguments>
+                    <argument name="icon_url" xsi:type="string">images/icons/page-bottom/icon-nova-poshta.svg</argument>
+                    <argument name="css_class" xsi:type="string">cs-page-bottom__logo cs-page-bottom__logo--hermes</argument>
+                    <argument name="alt_text" xsi:type="string">Нова Пошта</argument>
+                    <argument name="lazy_loaded" xsi:type="boolean">true</argument>
+                    <argument name="inlined" xsi:type="boolean">false</argument>
+                </arguments>
+            </block>
+            <block class="MageSuite\ThemeHelpers\Block\Icon" name="page.bottom.group.shipping.justin">
+                <arguments>
+                    <argument name="icon_url" xsi:type="string">images/icons/page-bottom/icon-justin.svg</argument>
+                    <argument name="css_class" xsi:type="string">cs-page-bottom__logo cs-page-bottom__logo--hermes</argument>
+                    <argument name="alt_text" xsi:type="string">Justin</argument>
+                    <argument name="lazy_loaded" xsi:type="boolean">true</argument>
+                    <argument name="inlined" xsi:type="boolean">false</argument>
+                </arguments>
+            </block>
+        </referenceBlock>
+
+        <referenceBlock name="page.bottom.group.payment" template="Magento_Theme::page-bottom/group.phtml">
+            <block class="MageSuite\ThemeHelpers\Block\Icon" name="page.bottom.group.payment.privatbank">
+                <arguments>
+                    <argument name="icon_url" xsi:type="string">images/icons/page-bottom/icon-privatbank.svg</argument>
+                    <argument name="css_class" xsi:type="string">cs-page-bottom__logo cs-page-bottom__logo--paypal</argument>
+                    <argument name="alt_text" xsi:type="string">Приват Банк</argument>
+                    <argument name="lazy_loaded" xsi:type="boolean">true</argument>
+                    <argument name="inlined" xsi:type="boolean">false</argument>
+                </arguments>
+            </block>
+            <block class="MageSuite\ThemeHelpers\Block\Icon" name="page.bottom.group.payment.monobank">
+                <arguments>
+                    <argument name="icon_url" xsi:type="string">images/icons/page-bottom/icon-monobank.svg</argument>
+                    <argument name="css_class" xsi:type="string">cs-page-bottom__logo cs-page-bottom__logo--paypal</argument>
+                    <argument name="alt_text" xsi:type="string">Монобанк</argument>
+                    <argument name="lazy_loaded" xsi:type="boolean">true</argument>
+                    <argument name="inlined" xsi:type="boolean">false</argument>
+                </arguments>
+            </block>
+        </referenceBlock>
+
+
+        <referenceBlock remove="true" name="page.bottom.group.shipping.hermes"></referenceBlock>
+        <referenceBlock remove="true" name="page.bottom.group.shipping.dhl"></referenceBlock>
+        <referenceBlock remove="true" name="page.bottom.group.payment.paypal"></referenceBlock>
+        <referenceBlock remove="true" name="page.bottom.group.payment.klarna_sofort"></referenceBlock>
+        <referenceBlock remove="true" name="page.bottom.group.payment.klarna"></referenceBlock>
+
     </body>
 </page>
