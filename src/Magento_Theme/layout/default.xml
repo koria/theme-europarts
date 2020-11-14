@@ -5,6 +5,12 @@
             <!-- in order to remove some items please target them in your theme and set item type to something other than 'array'. For instance to remove facebook: <item name="facebook" xsi:type="string"></item> -->
             <arguments>
                 <argument name="items" xsi:type="array">
+                    <item name="google-plus" xsi:type="string"></item>
+                    <item name="youtube" xsi:type="string"></item>
+                    <item name="twitter" xsi:type="string"></item>
+                    <item name="facebook" xsi:type="array">
+                        <item name="url" xsi:type="string">https://www.facebook.com/EUROPARTSUA</item>
+                    </item>
                     <item name="instagram" xsi:type="array">
                         <item name="additional_css_classes" xsi:type="string">cs-social-media-list__item--instagram</item>
                         <item name="url" xsi:type="string">https://www.instagram.com/europartsua/</item>
